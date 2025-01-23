@@ -1,0 +1,8 @@
+# Global ignore rules
+*.log
+*.tmp
+.DS_Store
+
+# Ignore IDE files
+.vscode/
+.idea/
