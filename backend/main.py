@@ -24,7 +24,7 @@ def home():
 
 
 @app.get("/families")
-def get_user_families() -> dict[str: str]:
+def get_user_families():
     families = [
         {"name": "Pełna rodzina", "description": "Główne drzewo genealogiczne"},
         {"name": "LOTR", "description": "Wyimaginowane drzewo genealogiczne z LOTRa"},

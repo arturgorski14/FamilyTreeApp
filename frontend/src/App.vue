@@ -19,6 +19,8 @@ onMounted(async () => {
 </script>
 
 <template>
+  <h1 class="text-2xl">Your Families</h1>
+
   <div v-if="user_families.length != 0">
     <ul>
       <li v-for="family in user_families" :key="family">
